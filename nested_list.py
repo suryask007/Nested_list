@@ -23,8 +23,8 @@
 a=[]
 for i in range(int(input("enter the loop:"))):
    name=input("Enter the name:")
-   mar=int(input("Enter the mark:"))
-   a.append([name,mar])
+   mark=int(input("Enter the mark:"))
+   a.append([name,mark])
 b=[]
 for x in a:
     print(x[1])
